@@ -1,0 +1,203 @@
+p {
+    color: black;
+    text-align: center;
+}
+
+#div1{
+    background-color: #ffcfe8; 
+    padding: 5px;
+}
+
+.button{
+    font-family: "DM Sans", sans-serif; 
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    margin: 5px;
+    background-color:#ffcfe8;
+    border-radius: 10px;
+    padding: 5px;
+    padding-right:10px;
+    padding-left:10px;
+    background-color: #d46195; 
+    border-color: white;
+    color: white;
+    border: 10px;
+
+}
+
+.button:hover{
+    transition-duration: 0.2s;
+    border-color: #d46195;
+    color: #d46195;
+    background-color: white;
+}
+
+#div2{
+    background-color: #d46195;
+    padding-left: 25px;
+    padding-right: 5px;
+    padding-top:1px;
+    padding-bottom: 10px
+}
+
+#starrynight{
+    float: right;
+    padding-top:4px;
+    height: 130px;    
+}
+
+#section1{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-image: url(galaxy.jpg); 
+    height: 500px;
+    border-color:#d46195;
+    border-width: 100px;
+}
+
+#about-me{
+    color: #96235c;
+    width: 500px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 150px;
+    height: 170px;
+}
+
+#pic2{
+    width: 450px;
+    height: 400px;
+    margin-top: 10px;
+    margin-right: 150px;
+    border-radius: 50px;
+    border-color: #d46195;
+    border-width: 8px;
+    border-style: solid;
+
+}
+
+#div4{
+    background-color:#d46195
+}
+
+#contactsection{
+display:flex;
+flex-direction: row;
+gap: 10px
+}
+
+#contactme{
+    color: #d46195;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+    margin-left: 150px; 
+}
+
+.contact{
+    margin: 5px;
+    background-color:#ffcfe8;
+    border-radius: 20px;
+    padding: 5px;
+    padding-right:10px;
+    padding-left:10px;
+    background-color: white; 
+    color: white;
+    height:100px;
+    width: 150px; 
+    border: 10px
+}
+
+.contact:hover{
+    transition-duration: 0.2s;
+    color: #d46195;
+    background-color: pink;
+}
+
+.contactpics{
+    height:75px;
+    width: 75px;
+}
+
+#section3{
+    margin-top: 20px;
+    align-items: center;
+}
+
+html{
+    font-family: "DM Sans", sans-serif; 
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 1440px
+}
+
+#title{
+    font-size: 60px; 
+    text-wrap: nowrap;
+    color: white;
+    text-align: center;
+    margin-top:80px;
+
+}
+
+#d1{
+    background-color: #d46195;
+    display: flex;   
+    gap: 350px; 
+    justify-content: center;
+    height: 160px;  
+
+}
+
+.sidepics{
+    position: sticky;
+    height: 300px;
+    object-fit: cover;
+    width: 180px
+}
+
+#interestsbg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d46195; 
+    height: 1900px;
+    
+}
+
+.actualinterests{
+    background-color:#ffcfe8;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 5px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 30x;
+    width: 1100px
+}
+
+.picsections{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+}
+
+.actualpics{
+    border-radius: 20px;
+    border-width: 20px;
+    border-color: #d46195;
+    max-height: 300px
+}
